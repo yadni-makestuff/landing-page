@@ -1,1 +1,1 @@
-# lading-page
+# landing-page
