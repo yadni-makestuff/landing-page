@@ -38,10 +38,12 @@ header,.section1,.section2,.section3,.section4,footer{
 }
 .headercont{
     justify-content: space-between;
+    
 }
 .logo{
-    border: solid blue;
+    
     flex: 1;
+    
 }
 .links,ul,li{ 
     display: flex;
@@ -51,6 +53,22 @@ ul{
     margin: 0;
     padding: 0;
 
+}
+
+.sec1cont{
+    border: solid blue;
+    justify-content: space-between;
+}
+.contentleft{
+    border: solid pink;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+}
+button{
+    width:max-content;
 }
 
 
