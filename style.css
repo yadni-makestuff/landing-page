@@ -24,11 +24,9 @@ img{
 }
 
 header,.section1,.section2,.section3,.section4,footer{
-
     display: flex;
     width: 100vw;
     flex: 1;
     justify-content: center;
-    
-
+    border: solid red;
 }
