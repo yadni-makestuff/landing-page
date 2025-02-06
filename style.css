@@ -11,8 +11,7 @@ body {
 }
 ul li{
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+
 }
 img{
     height: 150px;
@@ -28,5 +27,30 @@ header,.section1,.section2,.section3,.section4,footer{
     width: 100vw;
     flex: 1;
     justify-content: center;
-    border: solid red;
+    
 }
+.sec1cont,.sec2cont,.sec3cont,.sec4cont,.headercont,.footercont{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    flex-wrap: wrap;
+}
+.headercont{
+    justify-content: space-between;
+}
+.logo{
+    border: solid blue;
+    flex: 1;
+}
+.links,ul,li{ 
+    display: flex;
+    gap: 15px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+
