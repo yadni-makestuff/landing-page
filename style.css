@@ -56,19 +56,42 @@ ul{
 }
 
 .sec1cont{
-    border: solid blue;
+
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contentleft{
-    border: solid pink;
+
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
     flex-basis: 50%;
 }
+.contentright *{
+    border: solid pink;
+    flex-wrap: wrap;
+    flex: 1;
+    max-width: 100%;
+}
 button{
     width:max-content;
 }
 
-
+.sec2cont{
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imgs *{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+.text{
+    text-align: center;
+    padding: 15px;
+}
