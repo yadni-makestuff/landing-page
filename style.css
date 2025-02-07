@@ -9,58 +9,79 @@ body {
     align-items: center;
     flex: 1;
 }
-ul li{
+
+ul li {
     list-style: none;
 
 }
-img{
+
+img {
     height: 150px;
     width: 150px;
 }
-.contentright >img{
-    height:200px;
-    width:400px;
+
+.contentright>img {
+    height: 200px;
+    width: 400px;
 }
 
-header,.section1,.section2,.section3,.section4,footer{
+header,
+.section1,
+.section2,
+.section3,
+.section4,
+footer {
     display: flex;
     width: 100vw;
     flex: 1;
     justify-content: center;
-    
+
 }
-.sec1cont,.sec2cont,.sec3cont,.sec4cont,.headercont,.footercont{
-    border: solid;
+
+.sec1cont,
+.sec2cont,
+.sec3cont,
+.sec4cont,
+.headercont,
+.footercont {
     display: flex;
     justify-content: center;
     width: 75vw;
     flex-wrap: wrap;
+    padding: 50px;
 }
-.headercont{
+
+.headercont {
     justify-content: space-between;
-    
+
 }
-.logo{
-    
+
+.logo {
+
     flex: 1;
-    
+
 }
-.links,ul,li{ 
+
+.links,
+ul,
+li {
     display: flex;
     gap: 15px;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 
 }
 
-.sec1cont{
+.sec1cont {
 
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.contentleft{
+
+.contentleft {
 
     display: flex;
     flex: 1;
@@ -68,58 +89,70 @@ ul{
     justify-content: center;
     flex-basis: 50%;
 }
-.contentright *{
+
+.contentright * {
     flex-wrap: wrap;
     flex: 1;
     max-width: 100%;
 }
-button{
-    width:max-content;
+
+button {
+    width: max-content;
     height: max-content;
 }
 
-.sec2cont{
+.sec2cont {
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.imgs *{
+
+.imgs * {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    
+
 }
-.text{
+
+.text {
     text-align: center;
     padding: 15px;
 }
-.sec3cont{
+
+.sec3cont {
     flex-direction: column;
+    margin: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.thor{
-   justify-content: end;
+.thor {
+    justify-content: end;
 }
-.quote, .thor{
+
+.quote,
+.thor {
     display: flex;
     flex: 1;
+
 }
-.sec4cont{
+
+.sec4cont {
     align-items: center;
-    border: solid;
-    
+
+
 }
-.text1{
-    border: solid;
+
+.text1 {
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 30px;
-
 }
-.footercont{
+
+.footercont {
     display: flex;
     align-items: center;
     justify-content: center;
