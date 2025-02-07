@@ -69,17 +69,17 @@ ul{
     flex-basis: 50%;
 }
 .contentright *{
-    border: solid pink;
     flex-wrap: wrap;
     flex: 1;
     max-width: 100%;
 }
 button{
     width:max-content;
+    height: max-content;
 }
 
 .sec2cont{
-    border: solid blue;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -94,4 +94,33 @@ button{
 .text{
     text-align: center;
     padding: 15px;
+}
+.sec3cont{
+    flex-direction: column;
+}
+
+.thor{
+   justify-content: end;
+}
+.quote, .thor{
+    display: flex;
+    flex: 1;
+}
+.sec4cont{
+    align-items: center;
+    border: solid;
+    
+}
+.text1{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+
+}
+.footercont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
