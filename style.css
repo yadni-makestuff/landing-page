@@ -36,6 +36,7 @@ footer {
     width: 100vw;
     flex: 2;
     justify-content: center;
+    padding:20px;
 
 }
 
@@ -49,6 +50,7 @@ footer {
     justify-content: center;
     width: 75vw;
     flex-wrap: wrap;
+    padding:20px;
 }
 
 .headercont {
@@ -139,13 +141,12 @@ button {
 
 .sec4cont {
     align-items: center;
-
 }
 .sec4maincont{
     display: flex;
     flex:1;
     max-width: 75%;
-    
+    justify-content: space-between;
 }
 
 .text1 {
@@ -168,3 +169,72 @@ button {
 header, footer{
     flex: 1;
 }
+
+/* styling */
+.logo{
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+.links, .secondarytext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.primarytext{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+.text{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+.imgs{
+    border: #3882F6;
+}
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.thor{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 16px;
+}
+.calltoaction{
+    margin-left: 20%;
+
+}
+.contentleft button{
+    margin-top: 10px;
+}
+.button button{
+    
+    border:solid white;
+}
+.button{
+    margin-right: 10%;
+}
+.footercont{
+    color: #E5E7EB;
+}
+.section1,header,footer{
+    background-color: #1F2937;
+}
+.section3{
+    background-color: #E5E7EB;
+}
+.sec4maincont{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 15px;
+}
+.imgs{padding: 20px;}
